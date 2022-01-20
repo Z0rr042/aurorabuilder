@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<index>
+	<info>
+		<name>Tasha's Cauldron of Everything</name>
+		<update version="1.0.0">
+			<file name="tashas-cauldron-everything.index" url="https://github.com/Z0rr042/aurorabuilder/blob/main/tashas-cauldron-everything.index" />
+		</update>
+	</info>
+	<files>
+		<file name="race-custom-lineage_darkvision.xml" url="https://github.com/Z0rr042/aurorabuilder/blob/main/tashas-cauldron-everything/race-custom-lineage_darkvision.xml" />
+		<file name="race-custom-lineage_prof.xml" url="https://github.com/Z0rr042/aurorabuilder/blob/main/tashas-cauldron-everything/race-custom-lineage_prof.xml" />
+	</files>
+</index>
