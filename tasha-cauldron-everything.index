@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <index>
 	<info>
-		<name>Your Content</name>
+		<name>Tasha's Cauldron of Everything</name>
 		<update version="1.0.0">
-			<file name="user-yourname.index" url="https://raw.githubusercontent.com/yourgithubaccount/repositoryname/master/user-yourname.index" />
+			<file name="tashas-cauldron-everything.index" url="https://drive.google.com/drive/folders/1mer_8koZrQMngJKBDdIbcOuszmTA3zxV/tashas-cauldron-everything.index" />
 		</update>
 	</info>
 	<files>
-		<file name="file1.xml" url="https://raw.githubusercontent.com/yourgithubaccount/repositoryname/master/user-yourname/file1.xml" />
-		<file name="file2.xml" url="https://raw.githubusercontent.com/yourgithubaccount/repositoryname/master/user-yourname/file2.xml" />
+		<file name="race-custom-lineage_darkvision.xml" url="https://drive.google.com/drive/folders/1-F0-YahwSKIj7BKnG2Jphfr26T360v0O/race-custom-lineage_darkvision.xml" />
+		<file name="race-custom-lineage_prof.xml" url="https://drive.google.com/drive/folders/1-F0-YahwSKIj7BKnG2Jphfr26T360v0O/race-custom-lineage_prof.xml" />
 	</files>
 </index>
