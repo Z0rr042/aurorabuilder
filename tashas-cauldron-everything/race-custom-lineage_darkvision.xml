@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+
+  <element name="Custom lineage with Darkvision" type="Race" source="Tasha's Cauldron of Everything" id="ID_RACE_CUSTOM_LINEAGE_DARKVISION">
+    <requirements>ID_INTERNAL_OPTION_ALLOW_FEATS</requirements>
+    <description>
+			<h4>CUSTOM LINEAGE TRAITS</h4>
+			<p>Your custom lineage character has some qualities in common with other races and some that are unique to them. Your race is considered to be a Custom Lineage for any game feature that requires a certain race, such as elf or dwarf.</p>
+			<p class="indent"><strong><em>Ability Score Increase. </em></strong>An ability score of your choice increases by 2.</p>
+			<p class="indent"><strong><em>Age. </em></strong>You determine your character's age after the race you intended it for.</p>
+			<p class="indent"><strong><em>Alignment. </em></strong>Any.</p>
+			<p class="indent"><strong><em>Size. </em></strong>You are Small or Medium (your choice).</p>
+			<p class="indent"><strong><em>Speed. </em></strong>Your base walking speed is 30 feet.</p>
+			<p class="indent"><strong><em>Darkvision. </em></strong>You gain darkvision with a range of 60 feet.</p>
+      <p class="indent"><strong><em>Feat. </em></strong> You gain one feat of your choice for which you qualify.</p>
+			<p class="indent"><strong><em>Languages. </em></strong>You can speak, read, and write Common and one other language that you and your DM agree is appropriate for your character.</p>
+    </description>
+    <sheet alt="Custom lineage with feat" display="false"/>
+    <rules>
+      <select type="Racial Trait" name="Ability Score Increase (Custom lineage)" supports="Custom lineage" number="1" />
+      <select type="Feat" name="Feat (Custom lineage)" />			
+      <grant type="Vision" id="ID_VISION_DARKVISION" />
+			<select type="Language" name="Language (Custom Lineage)" supports="Standard||Exotic"/>
+    </rules>
+  </element>
+
+  <!--temp fix, todo: undo in next release -->
+  <element name="Req Temp Fix" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_REQTEMPFIX" />
+  <append id="ID_RACE_LINEAGE_CUSTOM_LINEAGE">
+    <rules>
+      <grant type="Grants" id="ID_INTERNAL_GRANTS_REQTEMPFIX"/>
+    </rules>
+  </append>
+  <!--/temp-fix-->
+
+  
+  <!--Custom lineage Ability Score Increase-->
+  <element name="Ability Score Increase (Strength)" type="Racial Trait" source="Tasha's Cauldron of Everything" id="ID_RACE_LINEAGE_CUSTOM_LINEAGE_STRENGTH">
+    <compendium display="false" />
+    <supports>Custom lineage</supports>
+    <description>
+      <p>Your Strength score increases by 2.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <stat name="strength" value="2" alt="Custom lineage" />
+    </rules>
+  </element>
+  <element name="Ability Score Increase (Dexterity)" type="Racial Trait" source="Tasha's Cauldron of Everything" id="ID_RACE_LINEAGE_CUSTOM_LINEAGE_DEXTERITY">
+    <compendium display="false" />
+    <supports>Custom lineage</supports>
+    <description>
+      <p>Your Dexterity score increases by 2.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <stat name="dexterity" value="2" alt="Custom lineage" />
+    </rules>
+  </element>
+  <element name="Ability Score Increase (Constitution)" type="Racial Trait" source="Tasha's Cauldron of Everything" id="ID_RACE_LINEAGE_CUSTOM_LINEAGE_CONSTITUTION">
+    <compendium display="false" />
+    <supports>Custom lineage</supports>
+    <description>
+      <p>Your Constitution score increases by 2.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <stat name="constitution" value="2" alt="Custom lineage" />
+    </rules>
+  </element>
+  <element name="Ability Score Increase (Intelligence)" type="Racial Trait" source="Tasha's Cauldron of Everything" id="ID_RACE_LINEAGE_CUSTOM_LINEAGE_INTELLIGENCE">
+    <compendium display="false" />
+    <supports>Custom lineage</supports>
+    <description>
+      <p>Your Intelligence score increases by 2.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <stat name="intelligence" value="2" alt="Custom lineage" />
+    </rules>
+  </element>
+  <element name="Ability Score Increase (Wisdom)" type="Racial Trait" source="Tasha's Cauldron of Everything" id="ID_RACE_LINEAGE_CUSTOM_LINEAGE_WISDOM">
+    <compendium display="false" />
+    <supports>Custom lineage</supports>
+    <description>
+      <p>Your Wisdom score increases by 2.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <stat name="wisdom" value="2" alt="Custom lineage" />
+    </rules>
+  </element>
+  <element name="Ability Score Increase (Charisma)" type="Racial Trait" source="Tasha's Cauldron of Everything" id="ID_RACE_LINEAGE_CUSTOM_LINEAGE_CHARISMA">
+    <compendium display="false" />
+    <supports>Custom lineage</supports>
+    <description>
+      <p>Your Charisma score increases by 2.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <stat name="charisma" value="2" alt="Custom lineage" />
+    </rules>
+  </element>
+</elements>
