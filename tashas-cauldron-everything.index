@@ -7,7 +7,7 @@
 		</update>
 	</info>
 	<files>
-		<file name?"source.xml" url="https://github.com/Z0rr042/aurorabuilder/blob/main/tashas-cauldron-everything/source.xml" />
+		<file name="source.xml" url="https://github.com/Z0rr042/aurorabuilder/blob/main/tashas-cauldron-everything/source.xml" />
 		<file name="race-custom-lineage_darkvision.xml" url="https://github.com/Z0rr042/aurorabuilder/blob/main/tashas-cauldron-everything/race-custom-lineage_darkvision.xml" />
 		<file name="race-custom-lineage_prof.xml" url="https://github.com/Z0rr042/aurorabuilder/blob/main/tashas-cauldron-everything/race-custom-lineage_prof.xml" />
 	</files>
