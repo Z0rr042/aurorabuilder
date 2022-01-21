@@ -2,7 +2,7 @@
 <index>
 	<info>
 		<name>Tasha’s Cauldron of Everything</name>
-		<update version="1.0.0">
+		<update version="1.0.1">
 			<file name="tashas-cauldron-everything.index" url="https://raw.githubusercontent.com/Z0rr042/aurorabuilder/main/master/supplements/tashas-cauldron-everything.index" />
 		</update>
 	</info>
