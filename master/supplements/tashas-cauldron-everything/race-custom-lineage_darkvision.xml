@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
   <element name="Custom lineage with Darkvision" type="Race" source="Tasha's Cauldron of Everything" id="ID_RACE_CUSTOM_LINEAGE_DARKVISION">
-    <requirements>ID_INTERNAL_OPTION_ALLOW_FEATS</requirements>
+    <requirements>ID_INTERNAL_OPTION_ALLOW_FEATS</requirements><!--ajkejrk-->
     <description>
 			<h4>CUSTOM LINEAGE TRAITS</h4>
 			<p>Your custom lineage character has some qualities in common with other races and some that are unique to them. Your race is considered to be a Custom Lineage for any game feature that requires a certain race, such as elf or dwarf.</p>
