@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<update version="1.0.0">
-			<file name="source.xml" url="https://raw.githubusercontent.com/Z0rr042/aurorabuilder/main/supplements/tashas-cauldron-everything/source.xml" />
+			<file name="source.xml" url="https://raw.githubusercontent.com/Z0rr042/aurorabuilder/main/master/supplements/tashas-cauldron-everything/source.xml" />
 		</update>
 	</info>
 	<element name="Tasha’s Cauldron of Everything" type="Source" source="Core" id="ID_WOTC_SOURCE_TASHAS_CAULDRON_OF_EVERYTHING">
