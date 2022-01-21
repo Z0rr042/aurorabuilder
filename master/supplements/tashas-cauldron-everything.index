@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index>
-	<info><!-- test12 -->
+	<info>
 		<name>Tasha’s Cauldron of Everything</name>
 		<update version="1.0.0">
 			<file name="tashas-cauldron-everything.index" url="https://raw.githubusercontent.com/Z0rr042/aurorabuilder/main/master/supplements/tashas-cauldron-everything.index" />
