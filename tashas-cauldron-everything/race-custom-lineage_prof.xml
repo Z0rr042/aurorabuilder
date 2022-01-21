@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
-
   <element name="Custom lineage with proficiency" type="Race" source="Tasha's Cauldron of Everything" id="ID_RACE_CUSTOM_LINEAGE_PROF">
     <requirements>ID_INTERNAL_OPTION_ALLOW_FEATS</requirements>
 		<description>
@@ -21,11 +20,7 @@
     <rules>
       <select type="Racial Trait" name="Ability Score Increase (Custom lineage)" supports="Custom lineage" number="1" />
  			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_SKILL_VERSATILITY"/>
-			<select type="Language" name="Language (Custom Lineage)" supports="Standard||Exotic"/>
-
-      <!-- <select type="Proficiency" name="Skill Proficiency (Custom lineage)" supports="Skill" />
-      <select type="Feat" name="Feat (Custom lineage)" /> -->			
-      <!-- <grant type="Vision" id="ID_VISION_DARKVISION" /> -->
+			<select type="Language" name="Language (Custom Lineage)" supports="Standard||Exotic" />
     </rules>
   </element>
 
