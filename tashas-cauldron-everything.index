@@ -3,12 +3,12 @@
 	<info>
 		<name>Tasha’s Cauldron of Everything</name>
 		<update version="1.0.0">
-			<file name="tashas-cauldron-everything.index" url="https://github.com/Z0rr042/aurorabuilder/blob/main/tashas-cauldron-everything.index" />
+			<file name="tashas-cauldron-everything.index" url="https://raw.githubusercontent.com/Z0rr042/aurorabuilder/main/tashas-cauldron-everything.index" />
 		</update>
 	</info>
 	<files>
-		<file name="source.xml" url="https://github.com/Z0rr042/aurorabuilder/blob/main/tashas-cauldron-everything/source.xml" />
-		<file name="race-custom-lineage_darkvision.xml" url="https://github.com/Z0rr042/aurorabuilder/blob/main/tashas-cauldron-everything/race-custom-lineage_darkvision.xml" />
-		<file name="race-custom-lineage_prof.xml" url="https://github.com/Z0rr042/aurorabuilder/blob/main/tashas-cauldron-everything/race-custom-lineage_prof.xml" />
+		<file name="source.xml" url="https://raw.githubusercontent.com/Z0rr042/aurorabuilder/main/tashas-cauldron-everything/source.xml" />
+		<file name="race-custom-lineage_darkvision.xml" url="https://raw.githubusercontent.com/Z0rr042/aurorabuilder/main/tashas-cauldron-everything/race-custom-lineage_darkvision.xml" />
+		<file name="race-custom-lineage_prof.xml" url="https://raw.githubusercontent.com/Z0rr042/aurorabuilder/main/tashas-cauldron-everything/race-custom-lineage_prof.xml" />
 	</files>
 </index>
